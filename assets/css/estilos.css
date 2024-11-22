@@ -5,10 +5,14 @@ body {
 /* Hero Section */
 
 #Hero-Section {
-  background-image: url("../img/bg-hero.jpg");
+  background-image: url("../img/roshi-bg.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: left;
+  background-position: top;
+}
+
+.custom-bg-header{
+  background-color: rgba(0, 0, 0, 0.7); /* Negro con 50% de opacidad */
 }
 
 /* Mis trabajos */
