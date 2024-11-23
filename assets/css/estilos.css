@@ -15,6 +15,13 @@ body {
   background-color: rgba(0, 0, 0, 0.7); /* Negro con 50% de opacidad */
 }
 
+.custom-bg-ball{
+  background-image: url("../img/ball-dragon.png");
+  background-size: contain;
+  height: 1.5rem;
+  
+}
+
 /* Mis trabajos */
 
 #Mis-trabajos .image-top {
@@ -22,6 +29,12 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+}
+
+#Mis-trabajos{
+  background-image: url("../img/bg-namekusei-2.jpg");
+  background-size: cover;
+  background-position: top;
 }
 
 /* Contacto */
@@ -40,4 +53,8 @@ body {
     width: 100px;
   }
 
+}
+
+footer{
+  
 }
